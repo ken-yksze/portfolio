@@ -60,11 +60,11 @@ const Home = () => {
         <img id="yik-kan-sze-icon" src="yik-kan-sze.png" alt="Yik Kan Sze" />
         <p>
           Hello, I'm <strong>Yik Kan Sze</strong> from <em>Hong Kong</em>. I've
-          finished my
-          <strong>Bachelor of Engineering in Computer Engineering</strong>
-          from <em>The University of Hong Kong</em> in 2023. And after that,
-          I've been working as a <strong>Full Stack Developer</strong> for
-          <strong>one year</strong>. Currently, I'm pursuing further study in
+          finished my{" "}
+          <strong>Bachelor of Engineering in Computer Engineering</strong> from{" "}
+          <em>The University of Hong Kong</em> in 2023. And after that, I've
+          been working as a <strong>Full Stack Developer</strong> for{" "}
+          <strong>one year</strong>. Currently, I'm pursuing further study in{" "}
           <strong>Web Development</strong> from <em>Humber College</em> in
           Canada.
         </p>
