@@ -1,0 +1,49 @@
+footer {
+  padding: 0.625rem 0.83333333333rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e7eb;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.67rem;
+  color: #111827;
+}
+
+#copyright {
+  font: inherit;
+}
+
+#footer-nav a {
+  text-decoration: none;
+  color: #111827;
+}
+
+#footer-nav a:hover {
+  text-decoration: underline;
+}
+
+#footer-nav-links {
+  display: flex;
+  gap: 0.83333333333rem;
+
+  /* Prevent multi-line nav links */
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+/* For tablet */
+@media all and (max-width: 864px) {
+  footer {
+    font-size: 0.78rem;
+  }
+}
+
+/* For phone */
+@media all and (max-width: 384px) {
+  footer {
+    padding: 0.83333333333rem;
+    font-size: 0.83rem;
+  }
+}

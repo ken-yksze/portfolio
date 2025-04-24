@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  scroll-padding-top: 4.33333333333rem; /* Offset for sticky header */
+}
+
+/* General configs for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; /* Unset default margin of heading */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Headings font size */
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.75rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh; /* Ensure footer at the bottom if the contents are not enough for filling up the whole page */
+  font-size: inherit;
+}
+
+/* General configs for paragraph */
+p {
+  margin: 0; /* Unset default margin of paragraph */
+
+  /* For justified text */
+  text-align: justify;
+  text-justify: inter-word;
+
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+}
+strong {
+  font-style: normal;
+  font-weight: 600;
+}
+em {
+  font-style: italic;
+}
+
+/* General configs for img, maintain aspect ratio */
+img {
+  object-fit: contain;
+}
+
+/* General configs for unordered list, remove default styling */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* For tablet */
+@media all and (max-width: 864px) {
+  :root {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 1.33rem;
+  }
+}
+
+/* For phone */
+@media all and (max-width: 384px) {
+  :root {
+    font-size: 12px;
+    scroll-padding-top: 4.33333333333rem;
+  }
+
+  p span {
+    display: none;
+  }
+}

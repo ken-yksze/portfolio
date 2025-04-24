@@ -1,0 +1,22 @@
+main {
+  flex-grow: 1; /* Fill all remaining space if the viewport is not full */
+  margin-top: 4.33333333333rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.33333333333rem;
+  background-color: #f9fafb;
+}
+
+/* For tablet */
+@media all and (max-width: 864px) {
+  main {
+    gap: 3.33333333333rem;
+  }
+}
+
+/* For phone */
+@media all and (max-width: 384px) {
+  main {
+    gap: 1.66666666667rem;
+  }
+}
